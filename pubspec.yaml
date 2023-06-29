@@ -1,0 +1,30 @@
+name: code_reader
+description: Um aplicativo de leitura de códigos de barras.
+version: 1.0.0
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_barcode_scanner: ^2.0.0
+  animated_text_kit: ^4.2.1
+  jiffy: ^4.1.0
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+fonts:
+    - family: NunitoSans
+      fonts:
+        - asset: fonts/NunitoSans-Regular.ttf
+        - asset: fonts/NunitoSans-Bold.ttf
+          weight: 700
